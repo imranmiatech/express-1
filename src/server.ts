@@ -14,7 +14,7 @@ initDB();
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello Ihan!')
+  res.send('Hello assainment2!')
 })
 app.use("/api/v1/users", userRoutes)
 app.use("/api/v1/auth", authRoutes)
